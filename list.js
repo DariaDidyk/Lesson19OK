@@ -1,6 +1,6 @@
 class List {
     constructor(){
-        this._items = []; //массив item
+        this._items = []; 
     }
 
     addItem(item) {
@@ -23,8 +23,8 @@ class List {
 
 
     renderItems() {
-        return `
-            <ul>
+        return ` 
+            <ul id = 'app'>
                 ${this._items
                     .map(
                     (item) => `
