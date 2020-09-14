@@ -1,18 +1,26 @@
-const list = new List();
+const list = new List(document.getElementById('app'));
 list.addItem(new Item('First'));
 list.addItem(new Item('Second'));
 list.addItem(new Item('Third'));
+
+
+
+
+
+// const list2 = new List()
+
 
 // setTimeout(() => {
 //     list.toggleItem(1);
 // }, 1000);
 
 
-const div = document.createElement('div');
+// const div = document.createElement('div');
+// const list = document.querySelector('#app-list')
 
 
-document.body.append(div);
-console.log(div);
+// document.body.append(div);
+// console.log(div);
 
 
 
